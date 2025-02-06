@@ -1,0 +1,29 @@
+body {
+  background-color: red;
+}
+.label {
+  display: block;
+  font-size: 12px;
+  box-sizing: border-box;
+
+  bottom: -2px;
+  z-index: 1;
+  width: 100%;
+  background-color: red;
+  padding: 4px 7px;
+  color: white;
+  border: 0;
+  box-shadow: transparent;
+}
+.input {
+  border: 0;
+  outline: 0;
+
+  border-color: 9DBEBB;
+  border-bottom: 2px solid #9dbebb;
+  font-size: 14px;
+  background-color: transparent;
+}
+input::placeholder {
+  color: white;
+}

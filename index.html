@@ -10,17 +10,34 @@
   <body>
     <main>
       <form class="forms" autocomplete="off">
-        <label></label>
-        <input />
-        <label> </label>
-        <input />
-        <label> </label>
-        <input />
-        <label> </label>
-        <input />
+        <label for="fullname" class="label">FULL NAME</label>
+        <input type="text" name="name" id="fullname" class="input" />
+        <label for="email" class="label">EMAIL</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="input"
+          placeholder="Your Email"
+        />
+        <label for="messageabout" class="label">MESSAGE REGARDING</label>
+        <input
+          type="text"
+          name="messageabout"
+          id="messageabout"
+          class="input"
+        />
+        <label for="message" class="label">MESSAGE </label>
+        <input
+          type="text"
+          name="message"
+          id="message"
+          class="input"
+          placeholder="Your Message"
+        />
+        <button type="submit">SEND MESSAGE</button>
       </form>
       <img />
-      <button></button>
     </main>
   </body>
 </html>
