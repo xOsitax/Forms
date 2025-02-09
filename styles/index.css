@@ -91,3 +91,9 @@ body {
   color: white;
   font-family: "Roboto", serif;
 }
+input:hover {
+  background-color: gray;
+}
+textarea:hover {
+  background-color: gray;
+}
