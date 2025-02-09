@@ -1,8 +1,12 @@
 body {
-  margin: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #9dbebb;
+  height: 100vh;
+  font-family: "Roboto", serif;
 }
+
 .container {
   display: flex;
   position: relative;
@@ -19,47 +23,71 @@ body {
   box-sizing: border-box;
   position: relative;
   bottom: -2px;
-  z-index: 1;
   width: 100%;
-  background-color: red;
+  background-color: #be0909;
   padding: 4px 7px;
   color: white;
   border: 0;
   box-shadow: transparent;
+  font-family: "Roboto", serif;
 }
+
 .input {
+  display: flex;
+  justify-content: flex-start;
   background: none;
   border: none;
   color: white;
-  border-bottom: 2px solid #9dbebb;
+  border-bottom: 1px solid #9dbebb;
   font-size: 14px;
   background-color: transparent;
   padding: 5px;
+  width: 100%;
 }
-input::placeholder {
-  color: white;
-}
+
 .forms {
   background-color: #be0909;
   color: white;
   padding: 30px;
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .duck {
   display: inline-block;
 }
 
-button {
-  background-color: #537c82;
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  display: block;
+  width: 202px;
+  height: 48px;
+  background-color: #468189;
   color: white;
-  padding: 10px;
   border: none;
-  border-radius: 20px;
+  border-radius: 40px;
   cursor: pointer;
   text-align: center;
-  width: 150px;
-  margin-top: 10px;
+  font-size: 18px;
+
+  font-family: "Roboto", serif;
+  font-weight: 400px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+::placeholder {
+  color: white;
+  font-family: "Roboto", serif;
 }
